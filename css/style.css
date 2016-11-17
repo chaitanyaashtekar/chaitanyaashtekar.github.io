@@ -1,0 +1,121 @@
+body{
+  text-align:center; 
+   
+}
+.navbar{
+  margin:2px;
+}
+#home{
+  background-color: lightblue;
+  
+}
+.glyphicon-envelope{
+ font-size:1.3em;
+ }
+.glyphicon-phone{
+  font-size:1.3em;
+}  
+.mypic{
+  height:250px;
+  width:250px;
+  margin-top:15px;
+  
+}
+
+@media screen and (max-width: 600px) {
+ 
+    .mypic {
+       width:100%;
+      height:100%;      
+    }
+}
+#portfolio{
+  background-color: lightgreen;
+  
+}
+img{
+  margin:0 auto;
+}
+
+#tile {  
+  display:inline-block;
+  margin:20px;
+  width:300px;
+  border:3px solid rgb(204,204,204);
+  border-radius:15px;
+ 
+ }
+#tile:hover{
+  border-color:black;
+  cursor:pointer;
+  opacity:0.7;
+}
+
+.tile-img{
+ max-height:250px;
+  max-width:250px;
+  min-height:250px;
+  min-width:250px;
+  padding:5px;
+  border-radius:15px;
+}
+#about-me{
+  color:rgb(104,104,104);
+  text-align:center;
+}
+.dev{
+  font-size:2.2em;
+  padding:10px;
+  }
+.skillset{
+  
+}
+#contact{
+  height:650px;
+  background-color:#446E92;
+ color:white;
+  font-size:1.2em;
+  font-weight:bold
+}
+#contact a{
+  color:white
+}
+.fa{
+  
+  margin:15px;
+}  
+
+.fa:hover {
+   cursor: pointer;
+   color: #F6B977 !important;
+}
+kbd{
+  margin:3px;
+  font-size:1em;
+}
+ul,li{
+  display:inline;
+}
+hr{
+  
+  border:1px solid rgb(204,204,204);
+}
+#api{
+/*background-color:lightgreen;*/
+}
+h3{
+  margin-top:25px;
+}
+#portfolio a{
+  color:black;
+}
+h4{
+  font-weight:bold;
+}
+
+#contact{
+  text-align:left;
+}
+.gh{
+  color:rgb(104,104,104);
+}
